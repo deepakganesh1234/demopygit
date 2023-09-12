@@ -1,4 +1,4 @@
-#Function to compare protein weights
+# Function to compare protein weights
 def compare_protein_weights(weight1, weight2):
     if weight1 > weight2:
         return "Protein 1 is heavier."
@@ -7,7 +7,7 @@ def compare_protein_weights(weight1, weight2):
     else:
         return "Both proteins have the same weight."
 
-#Input protein weights from the user
+# Input protein weights from the user
 try:
     weight1 = float(input("Enter the weight of Protein 1: "))
     weight2 = float(input("Enter the weight of Protein 2: "))
